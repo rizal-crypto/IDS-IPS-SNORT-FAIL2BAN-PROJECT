@@ -1,0 +1,8 @@
+# Nmap scan
+nmap -Pn 192.168.20.10
+
+# Hydra SSH brute force
+hydra -l test -p wrong ssh://192.168.20.10
+
+# Manual SSH failed login test
+ssh fakeuser@192.168.20.10

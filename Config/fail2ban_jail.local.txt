@@ -1,0 +1,10 @@
+# /etc/fail2ban/jail.local
+
+[sshd]
+enabled = true
+port = ssh
+backend = auto
+logpath = /var/log/auth.log
+maxretry = 3
+findtime = 60
+bantime = 600

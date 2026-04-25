@@ -1,0 +1,7 @@
+# Server logs
+grep "Failed password" /var/log/auth.log > auth_log.txt
+grep "Ban" /var/log/fail2ban.log > fail2ban.txt
+
+# Gateway logs
+grep "Port scan" /var/log/snort/alert > snort_alert.txt
+cat /var/log/blocked_ips.log > blocked_ips.txt

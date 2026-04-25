@@ -1,0 +1,5 @@
+# /etc/snort/rules/local.rules
+
+alert icmp any any -> $HOME_NET any (msg:"ICMP TRAFFIC DETECTED"; sid:1000001; rev:1;)
+
+alert tcp any any -> $HOME_NET any (msg:"Port scan detected"; flags:S; detection_filter:track by_src, count 10, seconds 5; sid:1000003; rev:1;)
