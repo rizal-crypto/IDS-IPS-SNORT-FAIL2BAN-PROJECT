@@ -1,0 +1,8 @@
+2026-04-17 15:14:58,503 fail2ban.actions        [4430]: NOTICE  [sshd] Ban 192.168.10.10
+2026-04-17 15:21:43,425 fail2ban.actions        [4917]: NOTICE  [sshd] Ban 192.168.10.10
+2026-04-17 15:26:03,281 fail2ban.actions        [4976]: NOTICE  [sshd] Ban 192.168.10.10
+2026-04-17 15:26:52,080 fail2ban.actions        [5032]: NOTICE  [sshd] Ban 192.168.10.10
+2026-04-17 15:29:13,936 fail2ban.actions        [5086]: NOTICE  [sshd] Ban 192.168.10.10
+2026-04-17 15:31:45,169 fail2ban.actions        [5152]: NOTICE  [sshd] Ban 192.168.10.10
+2026-04-24 14:02:37,216 fail2ban.actions        [1437]: NOTICE  [sshd] Ban 192.168.10.10
+2026-04-24 14:07:10,292 fail2ban.actions        [1437]: NOTICE  [sshd] Ban 192.168.10.10
